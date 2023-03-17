@@ -2,7 +2,7 @@
 
 #pragma warning(disable: 4996)
 
-DMD_COMMON(void) DmdCommon_ConvertFrameToPlanes(UINT32 width, UINT32 height, UINT8* frame, UINT8* planes, int bitDepth)
+DMDCOMMON(void) DmdCommon_ConvertFrameToPlanes(UINT32 width, UINT32 height, UINT8* frame, UINT8* planes, int bitDepth)
 {
     UINT8 bitMask = 1;
     UINT32 tj = 0;
